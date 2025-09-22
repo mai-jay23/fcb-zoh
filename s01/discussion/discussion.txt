@@ -1,3 +1,9 @@
 Git Demonstration
 
 Hello World!
+
+
+Topics in this course:
+-git
+-Html
+-css
