@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'lato', sans-serif;
+}
+
+nav {
+	padding: 20px;
+	margin-bottom: 5px;
+	background-color:aquamarine ;
+	display: flex;
+}
+ body {
+ 	text-align: center;
+ 	justify-content: center;
+ }
+.nav-link {
+	margin-left: 18px;
+	margin-right: 20PX;
+	color: black;
+	display: flex;
+	justify-items: flex-end;
+	justify-content: space-between;
+	justify-self: flex-end;
+	text-decoration: none;
+	
+}
+.nav-link::1
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color:white;
+	border-bottom:  2px white solid;
+
+
+}
+
+#profile {
+	height: 300px;
+	width: 300px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#name {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#title {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#intro {
+	width: 300px;
+	margin: auto;
+	text-align: center;
+}
+
+#tools {
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#tools-title {
+	margin-bottom: 20px;
+}
+
+.tools-img {
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-left: 30px;
+	border-radius: 15px;
+}
+
+#project {
+	text-align: center;
+}
+
+.card {
+	background-color: blueviolet;
+	height: 400px;
+	width: 600px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	text-align: center;
+	justify-content: center;
+
+}
+
+.card-img {
+	height: 300px;
+	width: 300px;
+}
+
+.contact {
+	padding: 16px;
+	margin-top: 4px;
+	background-color: aquamarine;
+}
+
+footer{
+	background-color: deepskyblue;
+	margin:15px 17px 15px 17px;
+}
+
+footer ul,a  {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.contact .social {
+  display: flex;
+  justify-self: flex-end; 
+
+.contact .social a {
+  margin: 0 10px;
+  text-align: center;
+
+}
